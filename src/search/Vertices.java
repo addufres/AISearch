@@ -1,16 +1,20 @@
 package search;
 
+/**
+ * @author dufresa
+ *
+ */
 public class Vertices {
 	
 	// FIELDS
 	/**
 	 * ID for the vertex
 	 */
-	final private String id;
+	final private String ID;
 	/**
 	 * Name of the vertex
 	 */
-	final private String name;
+	final private String NAME;
 	
 	// CONSTRUCTORS
 	/**
@@ -21,8 +25,8 @@ public class Vertices {
 	 * @param name of the vertex being constructed
 	 */
 	public Vertices(String id, String name) {
-		this.id = id;
-		this.name = name;
+		this.ID = id;
+		this.NAME = name;
 	}
 
 	// HASHCODE, EQUALS, TOSTRING
