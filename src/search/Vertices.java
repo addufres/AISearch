@@ -37,8 +37,8 @@ public class Vertices {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((id == null) ? 0 : id.hashCode());
-		result = prime * result + ((name == null) ? 0 : name.hashCode());
+		result = prime * result + ((ID == null) ? 0 : ID.hashCode());
+		result = prime * result + ((NAME == null) ? 0 : NAME.hashCode());
 		return result;
 	}
 
@@ -54,15 +54,15 @@ public class Vertices {
 		if (getClass() != obj.getClass())
 			return false;
 		Vertices other = (Vertices) obj;
-		if (id == null) {
-			if (other.id != null)
+		if (ID == null) {
+			if (other.ID != null)
 				return false;
-		} else if (!id.equals(other.id))
+		} else if (!ID.equals(other.ID))
 			return false;
-		if (name == null) {
-			if (other.name != null)
+		if (NAME == null) {
+			if (other.NAME != null)
 				return false;
-		} else if (!name.equals(other.name))
+		} else if (!NAME.equals(other.NAME))
 			return false;
 		return true;
 	}
@@ -72,7 +72,7 @@ public class Vertices {
 	 */
 	@Override
 	public String toString() {
-		return "Vertices [name=" + name + "]";
+		return "Vertices [name=" + NAME + "]";
 	}
 	
 	
