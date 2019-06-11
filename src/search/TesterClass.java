@@ -3,8 +3,8 @@ package search;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-//import static org.junit.Assert.assertNotNull;
-//import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 public class TesterClass {
 
@@ -50,8 +50,8 @@ public class TesterClass {
 		da.execute(nodes.get(0));
 		LinkedList<Vertices> path = da.getPath(nodes.get(10));
 		
-//		assertNotNull(path);
-//		assertTrue(path.size() > 0);
+		assertNotNull(path);
+		assertTrue(path.size() > 0);
 		
 		for(Vertices v : path) {
 			System.out.println(v);
