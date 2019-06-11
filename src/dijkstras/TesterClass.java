@@ -1,4 +1,4 @@
-package search;
+package dijkstras;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
